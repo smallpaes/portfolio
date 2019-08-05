@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Amaranth&display=swap" rel="stylesheet">
+  <!--Include Animate CSS-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+  <!--Include Font Awesome-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css">
+  <!--Include Materialize CSS-->
+  <link type="text/css" rel="stylesheet" href="./css/materialize.min.css">
+  <link type="text/css" rel="stylesheet" href="./css/index.css">
+  <title>Mike Huang | Web Developer</title>
+</head>
+
+<body>
+
+  <!--Header Section-->
+  <header id="home" class="navbar-fixed">
+    <!--Banner Slider-->
+    <div class="slider fullscreen">
+      <ul class="slides">
+        <li>
+          <img src="./img/banner.jpg" alt="Background image of Mike">
+          <div class="caption left-align grey-text text-lighten-5">
+            <h3>Looking For<br>Web Developer?</h3>
+            <h5>Check out my portfolio</h5>
+          </div>
+        </li>
+        <li>
+          <img src="./img/banner2.jpg" alt="Background image of Mike">
+          <div class="caption center-align grey-text text-lighten-4">
+            <h3>Love Adventure</h3>
+            <h5>Embrace Challenges</h5>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <!--Navbar-->
+    <nav>
+      <div class="container">
+        <a href="index.html" class="brand-logo">
+          <img src="./img/logo.png" alt="Mike's logo" class="responsive-img">
+        </a>
+        <a href="#" class="right sidenav-trigger show-on-medium-and-up" data-target="side-nav">
+          <i class="material-icons">menu</i>
+        </a>
+      </div>
+    </nav>
+    <!--Instruction Arrow-->
+    <a href="#about" id="arrow" class="animated bounce infinite slow"></a>
+  </header>
+
+  <!--Side Nav-->
+  <ul class="sidenav grey lighten-1" id="side-nav">
+    <li id="side-nav-logo">
+      <img src="./img/logo.png" alt="Mike's logo">
+    </li>
+    <li><a class="sidenav-close grey-text text-darken-3 waves-effect" href="#home">Home</a></li>
+    <li><a class="sidenav-close grey-text text-darken-3 waves-effect" href="#about">About</a></li>
+    <li><a class="sidenav-close grey-text text-darken-3 waves-effect" href="#skill">Skills</a></li>
+    <li><a class="sidenav-close grey-text text-darken-3 waves-effect" href="#project">Project</a></li>
+    <li><a class="sidenav-close grey-text text-darken-3 waves-effect" href="#more-info">More Info</a></li>
+    <li><a class="sidenav-close grey-text text-darken-3 waves-effect" href="#contact">Contact</a></li>
+    <li>
+      <div class="divider"></div>
+    </li>
+    <li><a class="subheader">Learn More About Me</a></li>
+    <div id="side-nav-icons-container">
+      <h5><a href="https://medium.com/麥克的半路出家筆記" class="grey-text text-darken-3" target="_blank"><i
+            class="fab fa-medium-m"></i></a>
+      </h5>
+      <h5><a href="https://github.com/smallpaes" class="grey-text text-darken-3" target="_blank"><i
+            class="fab fa-github"></i></a>
+      </h5>
+      <h5><a href="https://www.linkedin.com/in/mike-huang-mikank/" class="grey-text text-darken-3" target="_blank"><i
+            class="fab fa-linkedin"></i></a></h5>
+    </div>
+  </ul>
+
+  <!--About Me Section-->
+  <section class="section grey lighten-5 section-about grey-text text-darken-2 scrollspy" id="about">
+    <div class="container center">
+      <h3>About Mike</h3>
+      <h6 class="grey-text text-darken-1">
+        Currently taking full stack web development bootcamp, aiming to work as a professional web developer locally
+        or globally!
+      </h6>
+      <div class="row center">
+        <div class="col s12 m4">
+          <div class="card animated">
+            <a href="https://bit.ly/2MA8oGm" target="_blank">
+              <div class="card-image" id="card-image1">
+                <div class="overlay"></div>
+                <span class="card-title">
+                  展開轉職工程師之路
+                </span>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col s12 m4">
+          <div class="card animated">
+            <a href="https://bit.ly/2YASsu6" target="_blank">
+              <div class=" card-image" id="card-image2">
+                <div class="overlay"></div>
+                <span class="card-title">
+                  學期一：探索程式趣
+                </span>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col s12 m4">
+          <div class="card animated">
+            <a href="https://bit.ly/2Oxf8ax" target="_blank">
+              <div class=" card-image" id="card-image3">
+                <div class="overlay"></div>
+                <span class="card-title">
+                  學期二：前端技能養成
+                </span>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--Skills-->
+  <section class="section-skills parallax-container scrollspy" id="skill">
+    <div class="overlay">
+      <div class="carousel carousel-slider center">
+        <!--Front-End-->
+        <div class="carousel-item white-text valign-wrapper" href="#frontEnd!" id="front-end-carousel-item">
+          <div class="container">
+            <h3>Front-End</h3>
+            <div class="row">
+              <div class="carousel-logo col s2 tooltipped z-depth-5" data-tooltip="HTML 5">
+                <img src="./img/HTML.png" alt="HTML 5 Logo" class="responsive-img">
+              </div>
+              <div class="carousel-logo col s2 tooltipped" data-tooltip="CSS 3">
+                <img src="./img/CSS.png" alt="CSS 3 Logo" class="responsive-img">
+              </div>
+              <div class="carousel-logo col s2 tooltipped" data-tooltip="JavaScript">
+                <img src="./img/JavaScript.png" alt="JavaScript Logo" class="responsive-img">
+              </div>
+              <div class="carousel-logo col s2 tooltipped" data-tooltip="Bootstrap">
+                <img src="./img/Bootstrap.png" alt="Bootstrap Logo" class="responsive-img">
+              </div>
+              <div class="carousel-logo col s2 tooltipped" data-tooltip="Materialize">
+                <img src="./img/Materialize.png" alt="Materialize Logo" class="responsive-img">
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--Back-End-->
+        <div class="carousel-item white-text valign-wrapper" href="#backEnd!">
+          <div class="container">
+            <h3>Back-End</h3>
+            <div class="row">
+              <div class="carousel-logo col s2 tooltipped" data-tooltip="Node.js">
+                <img src="./img/NodeJS.png" alt="NodeJS Logo" class="responsive-img">
+              </div>
+              <div class="carousel-logo col s2 tooltipped" data-tooltip="Express">
+                <img src="./img/Express.png" alt="Express Logo" class="responsive-img">
+              </div>
+              <div class="carousel-logo col s2 tooltipped" data-tooltip="MongoDB">
+                <img src="./img/MongoDB.png" alt="MongoDB Logo" class="responsive-img">
+              </div>
+              <div class="carousel-logo col s2 tooltipped" data-tooltip="MySQL">
+                <img src="./img/MySQL.png" alt="MySQL Logo" class="responsive-img">
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--Others-->
+        <div class="carousel-item white-text valign-wrapper" href="#others!">
+          <div class="container">
+            <h3>Tools & Others</h3>
+            <div class="row">
+              <div class="carousel-logo col s2 tooltipped" data-tooltip="GitHub">
+                <img src="./img/GitHub.png" alt="GitHub Logo" class="responsive-img">
+              </div>
+              <div class="carousel-logo col s2 tooltipped" data-tooltip="Git">
+                <img src="./img/Git.png" alt="Git Logo" class="responsive-img">
+              </div>
+              <div class="carousel-logo col s2 tooltipped" data-tooltip="Heroku">
+                <img src="./img/Heroku.png" alt="Heroku Logo" class="responsive-img">
+              </div>
+              <div class="carousel-logo col s2 tooltipped" data-tooltip="Chrome Extension">
+                <img src="./img/Chrome.png" alt="Chrome Logo" class="responsive-img">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="parallax">
+        <img src="./img/san-francisco-city-view.jpeg" alt="City view of San Francisco">
+      </div>
+
+  </section>
+
+  <!--Project Display Section-->
+  <section class="section grey lighten-5 section-project grey-text text-darken-2 scrollspy" id="project">
+    <div class="container">
+      <h3 class="center">Recent Project</h3>
+      <h6 class="grey-text text-darken-1 center">
+        Watch a full list of projects at once on my <span class="light-blue-text text-accent-4"><a
+            href="https://github.com/smallpaes?tab=repositories" target="_blank" id="github-repo-link">GitHub</a></span>
+      </h6>
+      <div class="row">
+        <!--Projects be displayed here-->
+      </div>
+    </div>
+  </section>
+
+  <!--Experience Section-->
+  <section class="section section-learn-more parallax-container scrollspy" id="more-info">
+    <div class="parallax">
+      <img src="./img/countryside.jpeg" alt="County side view">
+      <div class="overlay"></div>
+    </div>
+    <div id="learn-more-content">
+      <div class="container">
+        <div class="row center white-text">
+          <h3>Discover More</h3>
+          <div class="col s8 offset-s2 learn-more-link">
+            <a href="https://github.com/smallpaes?tab=repositories"
+              class="btn waves-effect waves-light light-blue accent-4" target="_blank">
+              <i class="fab fa-github left"></i>GitHub
+            </a>
+            <a href="https://medium.com/麥克的半路出家筆記" class="btn waves-effect waves-light orange darken-4" target="_blank">
+              <i class="fab fa-medium left"></i>Medium
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--Contact Section-->
+  <section class="section experience grey lighten-5 section-contact grey-text text-darken-2 scrollspy" id="contact">
+    <div class="container center">
+      <h3>Get In Touch</h3>
+      <h6>Kindly fill in the form and let us get a chance to learn more about each other</h6>
+      <div class="row">
+        <form class="col s12 xl10 offset-xl1" action="https://getform.io/f/f5781ce8-a6f2-406d-bde3-57b1b50da340"
+          method="POST">
+          <div class="row">
+            <div class="input-field col s12 m6">
+              <i class="material-icons prefix">account_circle</i>
+              <input type="text" class="validate" id="name" required>
+              <label for="name">Name</label>
+              <span class="helper-text" data-error="Kindly provide your name"></span>
+            </div>
+            <div class="input-field col s12 m6">
+              <i class="material-icons prefix">email</i>
+              <input type="email" name="email" class="validate" id="email" required>
+              <label for="email">Email</label>
+              <span class="helper-text" data-error="Kindly provide your email"></span>
+            </div>
+          </div>
+          <div class="row">
+            <div class="input-field col s12">
+              <i class="material-icons prefix">message</i>
+              <textarea name="message" id="message" class="materialize-textarea validate" required></textarea>
+              <label for="message">Leave a message</label>
+              <span class="helper-text" data-error="Kindly leave a message"></span>
+            </div>
+          </div>
+          <div class="row center">
+            <button class="btn waves-effect waves-light blue-grey" type="submit" name="action">Send
+              <i class="material-icons right">send</i>
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!--Footer-->
+  <footer class="page-footer grey lighten-1">
+    <div class="container">
+      <div class="row">
+        <div class="col s12">
+          <div id="footer-logo">
+            <img src="./img/logo.png" alt="Logo of Mike">
+          </div>
+          <p class="grey-text text-darken-3">Learn more about Mike</p>
+          <div id="footer-links">
+            <a href="https://github.com/smallpaes" target="_blank" class="grey-text text-lighten-3"><i
+                class="fab fa-github fa-2x"></i></a>
+            <a href="https://medium.com/麥克的半路出家筆記" target="_blank" class="grey-text text-lighten-3"><i
+                class="fab fa-medium fa-2x"></i></a>
+            <a href="https://www.linkedin.com/in/mike-huang-mikank/" target="_blank" class="grey-text text-lighten-3"><i
+                class="fab fa-linkedin fa-2x"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright center">
+      <div class="container">
+        Mike's Portfolio © 2019 Copyright
+      </div>
+    </div>
+  </footer>
+
+  <script type="text/javascript" src="./js/jquery-3.4.1.min.js"></script>
+  <script type="text/javascript" src="./js/materialize.min.js"></script>
+  <script type="text/javascript" src="./js/materialize-init.js"></script>
+  <script type="text/javascript" src="./js/index.js"></script>
+</body>
+
+</html>

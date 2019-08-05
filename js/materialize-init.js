@@ -1,0 +1,25 @@
+$(document).ready(function () {
+  // Init Scrollspy
+  $('.scrollspy').scrollSpy()
+  // Init tooltip
+  $('.tooltipped').tooltip({
+    position: 'bottom'
+  })
+  // Init slider
+  $('.slider').slider({
+    indicators: false,
+    interval: 5000
+  })
+  // Init Sidenav
+  $('.sidenav').sidenav({
+    edge: 'right',
+    preventScrolling: false
+  });
+  // Init Parallax
+  $('.parallax').parallax()
+  // Init carousel slider
+  $('.carousel.carousel-slider').carousel({
+    fullWidth: true,
+    indicators: true
+  })
+});
