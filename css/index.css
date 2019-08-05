@@ -413,6 +413,7 @@ ul.sidenav .subheader {
   margin: 0 .5rem;
 }
 
+
 @media screen and (min-width: 480px) {
   /*Project Section*/
   .section-project .card-reveal .card-title {

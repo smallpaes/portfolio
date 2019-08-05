@@ -89,8 +89,8 @@
     element.classList.remove(...animations)
   }
 
-  // Handle navbar animation
-  function animateNav() {
+  // Handle floating action button
+  function showFloatingActionButton() {
     if (window.pageYOffset > navHeight) { return nav.classList.add('blue-grey', 'lighten-3', 'shadow') }
     nav.classList.remove('blue-grey', 'lighten-3', 'shadow')
   }

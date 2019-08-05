@@ -22,4 +22,8 @@ $(document).ready(function () {
     fullWidth: true,
     indicators: true
   })
+  // Int floating action button
+  $('.fixed-action-btn').floatingActionButton({
+    toolbarEnabled: true
+  })
 });
