@@ -79,6 +79,7 @@
   const navHeight = nav.offsetHeight
   const skillOffsetHeight = document.getElementById('skill').offsetTop
   const projectOffsetHeight = document.getElementById('project').offsetTop
+  const actionBtn = document.querySelector('.fixed-action-btn a:first-of-type')
   let skillsAnimated = false
   let aboutCardAnimated = false
   let projectPlaced = false
@@ -97,8 +98,8 @@
 
   // Handle floating action button
   function showFloatingActionButton() {
-    if (window.pageYOffset > navHeight) { return nav.classList.add('blue-grey', 'lighten-3', 'shadow') }
-    nav.classList.remove('blue-grey', 'lighten-3', 'shadow')
+    if (window.pageYOffset > navHeight) { return actionBtn.classList.remove('scale-out') }
+    actionBtn.classList.add('scale-out')
   }
 
   // Handle about cards animation
