@@ -89,6 +89,12 @@
     element.classList.remove(...animations)
   }
 
+  // Handle navbar animation
+  function animateNav() {
+    if (window.pageYOffset > navHeight) { return nav.classList.add('blue-grey', 'lighten-3', 'shadow') }
+    nav.classList.remove('blue-grey', 'lighten-3', 'shadow')
+  }
+
   // Handle floating action button
   function showFloatingActionButton() {
     if (window.pageYOffset > navHeight) { return nav.classList.add('blue-grey', 'lighten-3', 'shadow') }
@@ -198,6 +204,7 @@
 
   window.addEventListener('scroll', () => {
     animateNav()
+    showFloatingActionButton()
     if (!aboutCardAnimated) { animateAboutCards() }
     if (!skillsAnimated) { animateSkills() }
     if (!projectPlaced) { placeProjects() }
