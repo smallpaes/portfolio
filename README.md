@@ -1,5 +1,5 @@
 # My Portfolio
-My portfolio built using Materialize framework
+My portfolio built using Materialize framework and Animate.css
 
 
 ## Project First Look
@@ -14,6 +14,13 @@ My portfolio built using Materialize framework
 - Discover More
 - Contact
 
+___
 
-### Contact
-Fill in the contact form to send your info directly to me
+## Website & Blog
+- [Mike's Portfolio](https://smallpaes.github.io/portfolio/)
+- [Medium Blog](https://bit.ly/2M6Ya0K)
+
+___
+
+## Authors
+[Mike Huang](https://github.com/smallpaes)
