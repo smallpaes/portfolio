@@ -26,9 +26,9 @@ h6 {
 
 /*Header Section*/
 header {
+  position: relative;
   width: 100%;
   min-height: 100vh;
-  position: relative;
 }
 
 .brand-logo img {
@@ -41,15 +41,15 @@ div.slider img,
 div.slider ul,
 div.slider li {
   position: absolute;
-  width: 100%;
   top: 0;
   bottom: 0;
+  width: 100%;
 }
 
 div.slider h3,
 div.slider h5 {
-  text-shadow: 1px 1px 4px #444444;
   font-weight: 700;
+  text-shadow: 1px 1px 4px #7b7b7b;
 }
 
 .slider .slides li .caption {
@@ -59,11 +59,11 @@ div.slider h5 {
 nav {
   position: relative;
   z-index: 2;
+  height: 64px;
   background-color: transparent;
+  box-shadow: none;
   transition: all .2s linear;
   -webkit-transition: all .2s linear;
-  box-shadow: none;
-  height: 64px;
 }
 
 .shadow {
@@ -73,15 +73,15 @@ nav {
 
 #arrow {
   position: absolute;
+  bottom: 3%;
+  left: 50%;
+  z-index: 3;
   width: 40px;
   height: 40px;
-  bottom: 3%;
-  z-index: 3;
-  left: 50%;
-  transform: translateX(-50%);
   background-image: url('../img/icons/arrow-down-white.png');
   background-size: cover;
   background-position: center;
+  transform: translateX(-50%);
 }
 
 /*Side Nav*/
@@ -96,8 +96,8 @@ ul.sidenav li:last-of-type a {
 }
 
 ul.sidenav .divider {
-  background-color: #686666;
   margin: 15px 20px 28px 25px;
+  background-color: #686666;
 }
 
 ul.sidenav .subheader {
@@ -105,8 +105,8 @@ ul.sidenav .subheader {
 }
 
 #side-nav-icons-container {
-  padding: 0 32px;
   display: flex;
+  padding: 0 32px;
 }
 
 #side-nav-icons-container h5 {
@@ -184,11 +184,11 @@ ul.sidenav .subheader {
   top: 40%;
   left: 0;
   width: 100%;
-  text-align: center;
   padding: 0;
-  text-shadow: 2px 2px 10px #363636;
-  opacity: 0;
   font-size: 1.2rem;
+  text-shadow: 2px 2px 10px #363636;
+  text-align: center;
+  opacity: 0;
 }
 
 /*Skills*/
@@ -233,14 +233,13 @@ ul.sidenav .subheader {
 }
 
 .carousel-logo {
+  margin: 0 1rem;
   background-color: rgb(241, 240, 240);
   border-radius: 15%;
-  margin: 0 1rem;
   -webkit-box-shadow: 1px 1px 1px 1px rgba(107,105,107,1);
   -moz-box-shadow: 1px 1px 1px 1px rgba(107,105,107,1);
   box-shadow: 1px 1px 1px 1px rgba(107,105,107,1);
   opacity: .7;
-  position: relative;
 }
 
 .carousel-logo:hover {
@@ -255,15 +254,15 @@ ul.sidenav .subheader {
 }
 
 .tooltip .tooltip-text {
-  visibility: hidden;
-  background-color: rgba(0, 0, 0, .7);
-  color: #fff;
-  padding: 5px 5px;
-  border-radius: 5px;
   position: absolute;
-  z-index: 1;
   top: 110%;
   left: 50%;
+  z-index: 1;
+  padding: 5px 5px;
+  color: #fff;
+  background-color: rgba(0, 0, 0, .7);
+  border-radius: 5px;
+  visibility: hidden;
   transform: translateX(-50%);
 }
 
@@ -313,18 +312,18 @@ ul.sidenav .subheader {
 
 .section-project .card-image .card-title {
   top: 50%;
-  transform: translate(-50%, -50%);
+  
   left: 50%;
-  padding: 0;
-  text-align: center;
-  color: white;
-  text-shadow: 1px 1px 1px #575555; 
-  border: 2px solid rgb(255,255,255);
-  opacity: 0;
   bottom: unset;
   padding: 5px;
-  cursor: pointer;
+  color: white;
   font-size: 1.5rem;
+  text-align: center;
+  text-shadow: 1px 1px 1px #575555; 
+  border: 2px solid rgb(255,255,255);
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  cursor: pointer;  
 }
 
 .section-project .card-action p {
@@ -333,10 +332,10 @@ ul.sidenav .subheader {
 }
 
 .section-project .card-reveal {
+  padding-top: 13px;
   background-image: url("../img/projects/sky.jpg");
   background-position: center;
   background-size: cover;
-  padding-top: 13px;
 }
 
 .section-project .card-reveal .overlay {
@@ -380,8 +379,8 @@ ul.sidenav .subheader {
 /*Experience Section*/
 #learn-more-content {
   position: absolute;
-  width: 100%;
   top: 50%;
+  width: 100%;
   transform: translateY(-50%);
 }
 
