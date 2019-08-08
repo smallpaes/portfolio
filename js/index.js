@@ -2,7 +2,7 @@
   const projects = [
     {
       title: 'Placeholder Image Helper',
-      image: './img/chrome-extension-cover.jpeg',
+      image: './img/projects/chrome-extension-cover.jpeg',
       imageAlt: 'Chrome Extension Project Cover Photo',
       description: 'A functional Google Extension to help your readily generate placeholder image and find the right royalty free images with accessible links that you can use right away!',
       badgeCaption: 'Chrome Extension',
@@ -19,7 +19,7 @@
     },
     {
       title: 'Favorite Restaurant List',
-      image: './img/restaurant-list.png',
+      image: './img/projects/restaurant-list.png',
       imageAlt: 'Favorite Restaurant List Project Cover Photo',
       description: 'An awesome web application built with Node.js, Express, and MongoDB for you to readily manage your restaurant lists with an account: Create, view, edit, delete, filter, sort, and search restaurant are as easy as pie',
       badgeCaption: 'Node.js & Express',
@@ -35,7 +35,7 @@
     },
     {
       title: 'Expense Tracker',
-      image: './img/expense-tracker.png',
+      image: './img/projects/expense-tracker.png',
       imageAlt: 'Expense Tracker Project Cover Photo',
       description: 'A practical web application built with Node.js, Express, and MongoDB for you to readily record, view, and manage your expense with an account: Create, view, edit, delete, filter expenses are as easy as pie',
       badgeCaption: 'Node.js & Express',
@@ -55,7 +55,7 @@
     },
     {
       title: 'Todo List',
-      image: './img/todo-list.png',
+      image: './img/projects/todo-list.png',
       imageAlt: 'Expense Tracker Project Cover Photo',
       description: 'A practical web application built with Node.js, Express, and MySQL for you to readily record, view, and manage your tasks with an account: Create, view, edit, delete, filter, and sort expenses are as easy as pie',
       badgeCaption: 'Node.js & Express',

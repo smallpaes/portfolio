@@ -79,7 +79,7 @@ nav {
   z-index: 3;
   left: 50%;
   transform: translateX(-50%);
-  background-image: url('../img/arrow-down-white.png');
+  background-image: url('../img/icons/arrow-down-white.png');
   background-size: cover;
   background-position: center;
 }
@@ -150,15 +150,15 @@ ul.sidenav .subheader {
 }
 
 #card-image1 {
-  background-image: url("../img/about-me-1.jpg");
+  background-image: url("../img/about-me/about-me-1.jpg");
 }
 
 #card-image2 {
-  background-image: url("../img/about-me-2.jpg");
+  background-image: url("../img/about-me/about-me-2.jpg");
 }
 
 #card-image3 {
-  background-image: url("../img/about-me-3.jpg");
+  background-image: url("../img/about-me/about-me-3.jpg");
 }
 
 .section-about .card-image .overlay {
@@ -333,7 +333,7 @@ ul.sidenav .subheader {
 }
 
 .section-project .card-reveal {
-  background-image: url('https://images.pexels.com/photos/1341279/pexels-photo-1341279.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+  background-image: url("../img/projects/sky.jpg");
   background-position: center;
   background-size: cover;
   padding-top: 13px;
