@@ -1,10 +1,6 @@
 $(document).ready(function () {
   // Init Scrollspy
   $('.scrollspy').scrollSpy()
-  // Init tooltip
-  $('.tooltipped').tooltip({
-    position: 'bottom'
-  })
   // Init slider
   $('.slider').slider({
     indicators: false,

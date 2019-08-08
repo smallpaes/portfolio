@@ -240,12 +240,35 @@ ul.sidenav .subheader {
   -moz-box-shadow: 1px 1px 1px 1px rgba(107,105,107,1);
   box-shadow: 1px 1px 1px 1px rgba(107,105,107,1);
   opacity: .7;
+  position: relative;
 }
 
 .carousel-logo:hover {
   opacity: .9;
   transition: opacity .2s linear;
   -webkit-transition: opacity .2s linear;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tooltip-text {
+  visibility: hidden;
+  background-color: rgba(0, 0, 0, .7);
+  color: #fff;
+  padding: 5px 5px;
+  border-radius: 5px;
+  position: absolute;
+  z-index: 1;
+  top: 110%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.tooltip:hover .tooltip-text {
+  visibility: visible;
 }
 
 /*Project Section*/
@@ -412,7 +435,6 @@ ul.sidenav .subheader {
 #footer-links a {
   margin: 0 .5rem;
 }
-
 
 @media screen and (min-width: 480px) {
   /*Project Section*/
