@@ -24,7 +24,8 @@
       description: 'An awesome web application built with Node.js, Express, and MongoDB for you to readily manage your restaurant lists with an account: Create, view, edit, delete, filter, sort, and search restaurant are as easy as pie',
       badgeCaption: 'Node.js & Express',
       links: {
-        github: 'https://github.com/smallpaes/restaurant-list-v3'
+        github: 'https://github.com/smallpaes/restaurant-list-v3',
+        medium: 'https://bit.ly/2yIrimi'
       },
       accomplishments: [
         'Express Handlebars & Bootstrap',
@@ -60,7 +61,8 @@
       description: 'A practical web application built with Node.js, Express, and MySQL for you to readily record, view, and manage your tasks with an account: Create, view, edit, delete, filter, and sort expenses are as easy as pie',
       badgeCaption: 'Node.js & Express',
       links: {
-        github: 'https://github.com/smallpaes/todo-list'
+        github: 'https://github.com/smallpaes/todo-list',
+        medium: 'https://bit.ly/2yIrimi'
       },
       accomplishments: [
         'Express Handlebars & Bootstrap',
