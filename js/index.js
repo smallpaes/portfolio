@@ -4,11 +4,11 @@
       title: 'Placeholder Image Helper',
       image: './img/projects/chrome-extension-cover.jpeg',
       imageAlt: 'Chrome Extension Project Cover Photo',
-      description: 'A functional Google Extension to help your readily generate placeholder image and find the right royalty free images with accessible links that you can use right away!',
+      description: 'A functional Google Extension to help you readily generate placeholder image and find the right royalty free images with accessible links that you can use right away!',
       badgeCaption: 'Chrome Extension',
       links: {
         github: 'https://github.com/smallpaes/find-placeholder-image',
-        chrome: 'https://github.com/smallpaes/find-placeholder-image',
+        chrome: 'https://bit.ly/306Wp7b',
         medium: 'https://bit.ly/2GN6q1F'
       },
       accomplishments: [
