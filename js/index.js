@@ -1,10 +1,30 @@
 (function () {
   const projects = [
     {
+      title: 'Nextmeal',
+      image: './img/projects/nextmeal.png',
+      imageAlt: 'Nextmeal Project Cover Photo',
+      description: 'A functional Google Chrome Extension that helps users readily generate placeholder images and find the right royalty-free images with accessible links of all sizes listed on a report that can be copied and used right away!',
+      badgeCaption: 'Nextmeal',
+      links: {
+        github: 'https://github.com/smallpaes/nextmeal',
+        heroku: 'https://nextmeal.herokuapp.com/#/',
+        medium: 'http://tiny.cc/kd1zgz'
+      },
+      accomplishments: [
+        'Built with Vue, Vuex, Vue Router',
+        'Create maps using Google Maps API',
+        'Chart.js for data visualization',
+        'Using Axios, RESTful API',
+        'Connect to third party payment APIs',
+        'Node, Express, MySQL',
+      ]
+    },
+    {
       title: 'Placeholder Image Helper',
       image: './img/projects/chrome-extension-cover.jpeg',
       imageAlt: 'Chrome Extension Project Cover Photo',
-      description: 'A functional Google Extension to help you readily generate placeholder image and find the right royalty free images with accessible links that you can use right away!',
+      description: 'A functional Google Chrome Extension that helps users readily generate placeholder images and find the right royalty-free images with accessible links of all sizes listed on a report that can be copied and used right away!',
       badgeCaption: 'Chrome Extension',
       links: {
         github: 'https://github.com/smallpaes/find-placeholder-image',
@@ -13,25 +33,9 @@
       },
       accomplishments: [
         'Chrome Extension form scratch',
+        'Published to Chrome Web Store',
         'Built with Bootstrap 4.3',
         'Using Javascript ES6'
-      ]
-    },
-    {
-      title: 'Favorite Restaurant List',
-      image: './img/projects/restaurant-list.png',
-      imageAlt: 'Favorite Restaurant List Project Cover Photo',
-      description: 'An awesome web application built with Node.js, Express, and MongoDB for you to readily manage your restaurant lists with an account: Create, view, edit, delete, filter, sort, and search restaurant are as easy as pie',
-      badgeCaption: 'Node.js & Express',
-      links: {
-        github: 'https://github.com/smallpaes/restaurant-list-v3',
-        medium: 'https://bit.ly/2yIrimi'
-      },
-      accomplishments: [
-        'Express Handlebars & Bootstrap',
-        'MongoDB & Mongoose',
-        'Followed MVC Framework',
-        'Passport Authentication'
       ]
     },
     {
