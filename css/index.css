@@ -150,7 +150,7 @@ ul.sidenav .subheader {
 }
 
 #card-image1 {
-  background-image: url("../img/about-me/about-me-1.jpg");
+  background-image: url("../img/about-me/about-me-1.jpeg");
 }
 
 #card-image2 {
@@ -159,6 +159,10 @@ ul.sidenav .subheader {
 
 #card-image3 {
   background-image: url("../img/about-me/about-me-3.jpg");
+}
+
+#card-image4 {
+  background-image: url("../img/about-me/about-me-4.jpg");
 }
 
 .section-about .card-image .overlay {
