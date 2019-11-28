@@ -83,22 +83,22 @@
     {
       name: '全端美食預定平台',
       link: 'http://tiny.cc/2vxzgz',
-      image: './img/about-me/about-me-1.jpeg'
+      image: './portfolio/img/about-me/about-me-1.jpeg'
     },
     {
       name: '轉職心路歷程',
       link: 'http://tiny.cc/atxzgz',
-      image:'./img/about-me/about-me-2.jpg"'
+      image:'./portfolio/img/about-me/about-me-2.jpg"'
     },
     {
       name: '分享前端技能養成',
       link: 'https://bit.ly/2Oxf8ax',
-      image: './img/about-me/about-me-3.jpg'
+      image: './portfolio/img/about-me/about-me-3.jpg'
     },
     {
       name: '展開轉職工程師之路',
       link: 'http://tiny.cc/iq2zgz',
-      image: './img/about-me/about-me-4.jpg'
+      image: './portfolio/img/about-me/about-me-4.jpg'
     }
   ]
 
