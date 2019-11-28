@@ -148,7 +148,7 @@ ul.sidenav .subheader {
   transition: all .3s linear;
   -webkit-transition: all .3s linear;
 }
-
+/* 
 #card-image1 {
   background-image: url("../img/about-me/about-me-1.jpeg");
 }
@@ -163,7 +163,7 @@ ul.sidenav .subheader {
 
 #card-image4 {
   background-image: url("../img/about-me/about-me-4.jpg");
-}
+} */
 
 .section-about .card-image .overlay {
   position: absolute;
