@@ -81,7 +81,7 @@
 
   const blogPosts = [
     {
-      name: '全端美食預定平台',
+      name: '打造美食預定平台',
       link: 'http://tiny.cc/2vxzgz',
       image: './img/about-me/about-me-1.jpeg'
     },
