@@ -4,7 +4,7 @@
       title: 'Nextmeal',
       image: './img/projects/nextmeal.png',
       imageAlt: 'Nextmeal Project Cover Photo',
-      description: 'A functional Google Chrome Extension that helps users readily generate placeholder images and find the right royalty-free images with accessible links of all sizes listed on a report that can be copied and used right away!',
+      description: 'An online platform, built by a group of 3, for users to readily access and order awesome food nearby at a reasonable price. Dashboards with data visualization are also developed for restaurant owners and admin.',
       badgeCaption: 'Nextmeal',
       links: {
         github: 'https://github.com/smallpaes/nextmeal',
